@@ -114,12 +114,6 @@ au FileType html call SetTabWidthEqTwo()
 
 
 " --------------------------------------------------------------------
-"  Python
-" --------------------------------------------------------------------
-au FileType python call SetTabWidthEqTwo()
-
-
-" --------------------------------------------------------------------
 "  PHP
 " --------------------------------------------------------------------
 au FileType php call SetTabWidthEqFour()
@@ -150,4 +144,7 @@ let NERDTreeShowBookmarks=1
 
 
 " --------------------------------------------------------------------
+"  Python
 " --------------------------------------------------------------------
+au FileType python call SetTabWidthEqTwo()
+au BufRead *.py map <buffer> <S-r> :w<CR>:!/usr/bin/env python % <CR>

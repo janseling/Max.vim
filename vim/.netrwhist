@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/var/www/demo/cdn'
+let g:netrw_dirhist_2='/Users/max/Works/Kind/backend'
+let g:netrw_dirhist_3='/Users/max/Works/ffmpeg-lib/androidFFmpeg'
+let g:netrw_dirhist_4='/Users/max/Works/Kind/KIND/spam'
